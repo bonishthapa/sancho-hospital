@@ -1054,4 +1054,18 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
-
+.docter-view{
+  text-align: center;
+  margin-top: 15px;
+}  
+.vewall-btn{
+  background: #a5c422;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+.vewall-btn a{
+  color: #ffffff;
+}
