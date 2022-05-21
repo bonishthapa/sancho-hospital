@@ -7,3 +7,10 @@ from hospital.models import Banner
 class HomePageView(ListView):
     model = Banner
     template_name = "index.html"
+
+    # def get_context_data(self, **kwargs):
+    #     context={
+    #         "apple":"shau",
+    #         "mango":"aap"
+    #     }
+    #     return super().get_context_data(**context)
