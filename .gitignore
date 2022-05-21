@@ -2,4 +2,7 @@
 venv
 
 #database
-./db.sqlite3
+./config/db.sqlite3
+
+#media file
+./config/media
