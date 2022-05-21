@@ -204,7 +204,7 @@ JAZZMIN_SETTINGS = {
 #     "theme": "cyborg",
 #     "dark_mode_theme": "cyborg",
 # }
-JAZZMIN_SETTINGS["show_ui_builder"] = True
+# JAZZMIN_SETTINGS["show_ui_builder"] = True
 
 JAZZMIN_UI_TWEAKS = {
     "navbar_small_text": True,
@@ -215,10 +215,10 @@ JAZZMIN_UI_TWEAKS = {
     "accent": "accent-teal",
     "navbar": "navbar-dark",
     "no_navbar_border": False,
-    "navbar_fixed": False,
+    "navbar_fixed": True,
     "layout_boxed": False,
-    "footer_fixed": False,
-    "sidebar_fixed": False,
+    "footer_fixed": True,
+    "sidebar_fixed": True,
     "sidebar": "sidebar-dark-info",
     "sidebar_nav_small_text": False,
     "sidebar_disable_expand": False,
