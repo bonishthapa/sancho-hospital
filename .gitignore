@@ -6,3 +6,7 @@ venv
 
 #media file
 ./config/media
+
+#migration file
+./config/hospital/migrations
+./config/staff/migrations
