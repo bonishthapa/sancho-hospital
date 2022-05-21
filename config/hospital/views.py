@@ -6,4 +6,4 @@ from hospital.models import Banner
 
 class HomePageView(ListView):
     model = Banner
-    template_name = "home.html"
+    template_name = "index.html"
