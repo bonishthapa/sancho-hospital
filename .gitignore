@@ -10,3 +10,8 @@ venv
 #migration file
 ./config/hospital/migrations
 ./config/staff/migrations
+
+#pycache
+./config/__pycache__
+./hospital/__pycache__
+./staff/__pycache__
