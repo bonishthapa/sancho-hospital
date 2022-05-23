@@ -3,6 +3,8 @@ import os
 from django.db import models
 from django.dispatch import receiver
 
+from hospital.models import Department
+
 # Create your models here.
 
 class Doctor(models.Model):
@@ -16,6 +18,7 @@ class Doctor(models.Model):
     address = models.CharField(max_length=250)
     qualification = models.CharField(choices=education,max_length=250)
     photo = models.ImageField(upload_to="doctor", null=True,blank=True)
+    department = models.ManyToManyField(Department)
 
     def __str__(self):
         return self.name
@@ -63,6 +66,7 @@ class Nurse(models.Model):
     address = models.CharField(max_length=250)
     qualification = models.CharField(choices=education,max_length=250)
     photo = models.ImageField(upload_to="nurse", null=True,blank=True)
+    department = models.ManyToManyField(Department)
 
     def __str__(self):
         return self.name        
